@@ -1,0 +1,115 @@
+/* Finn the human */
+@keyframes colorfade {
+	0%   {background-color: red;}
+	14.2%  {background-color: orange;}
+	28.4%  {background-color: yellow;}
+	42.6% {background-color: green;}
+	56.8% {background-color: cyan;}
+	71% {background-color: blue;}
+	85.2% {background-color: purple;}
+	100% {background-color: fuchsia;}
+}
+
+.finn {
+	width: 200px;
+	margin-left: 40%;	
+}
+
+.finn-body {
+	width: 100px;
+	height: 160px;
+	background-color: #0099cc;
+	text-align: center;
+	margin-left: 47%;
+	border: 2px solid;
+	animation-name: colorfade;
+	animation-duration: 10s;
+	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 25%;
+}
+
+.finn-hat {
+	width: 100px;
+	height: 80px;
+	position: relative;
+	border: 2px solid;
+	border-top: transparent;
+	border-bottom: transparent;
+	background-color: white;
+	margin-left: 47%;
+}
+
+.ears {
+	margin-left: 47%;
+	position: relative;
+	width: 100px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.ear-l {
+	width: 40px;
+	height: 40px;
+	border: 2px solid;
+	border-bottom: transparent;
+	position: absolute;
+	bottom: -20px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.ear-r {
+	width: 40px;
+	height: 40px;
+	border: 2px solid;
+	border-bottom: transparent;
+	position: absolute;
+	bottom: -20px;
+	background-color: white;
+	border-radius: 50%;
+	left: 60px;
+}
+
+.finn-face {
+	width: 80px;
+	height: 60px;
+	border: 2px solid;
+	left: 10px;
+	top: 10px;
+	position: relative;
+	border-radius: 50%;
+	background-color: #ffd3c0;
+}
+
+.eye-l {
+	width: 2px;
+	height: 2px;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 50%;
+	background-color: black;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.eye-r {
+	width: 2px;
+	height: 2px;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 50%;
+	background-color: black;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.mouth {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 27px;
+	top: 17px;
+	border-radius: 50%;
+	background-color: transparent;
+	border-bottom: 2px solid black;
+}
